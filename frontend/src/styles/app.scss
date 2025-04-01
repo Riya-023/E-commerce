@@ -39,6 +39,9 @@
 
   @import "home";
   @import "cart.scss";
+  @import "shipping.scss";
+  @import "login.scss";
+  @import "search.scss";
   
   @import "admin-styles/dashboard";
   @import "admin-styles/products";
@@ -88,37 +91,11 @@
   }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.heading{
+  @include heading;
+  margin: 1rem 0;
+  text-align: center;
+}
 
 
 

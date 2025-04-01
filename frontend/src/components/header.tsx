@@ -10,7 +10,7 @@ import { useState } from "react";
 
 //ye templorly user banaya h
 // const user = { _id: "" }; // abhi id nhi h toh user ka icon dikhayega
-const user = { _id: "ghj", role: "admin" }; // abhi id h toh user ka icon nhi dikhayega
+const user = { _id: "", role: "" }; // abhi id h toh user ka icon nhi dikhayega
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState<boolean>(false);
